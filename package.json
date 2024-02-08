@@ -1,0 +1,14 @@
+{
+  "name": "json-patch-extend",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "jsonata": "2.0.3"
+  }
+}
