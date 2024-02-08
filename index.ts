@@ -8,8 +8,8 @@ const now = () => new Date().toISOString();
 const sum = (a: number, b: number) => a + b;
 
 // with JSONata
-const sumX = jsonata("$sum(a + b)");
 const nowX = jsonata("$now()");
+const sumX = jsonata("$sum(a + b)");
 
 const patch: Operation[] = [
 	{ op: "add", path: "/foo", value: "bar" },
